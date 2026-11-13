@@ -1,0 +1,11 @@
+Feature,Mean_Absolute_SHAP,Business_Interpretation
+numerical__msp_quintal,1.3188616809172888,Investigate this feature's relationship with crop yield using domain knowledge and the SHAP summary plot.
+numerical__dry_spell_max_days,0.46212561168301064,Investigate this feature's relationship with crop yield using domain knowledge and the SHAP summary plot.
+categorical__crop_Wheat,0.2916393715339937,Investigate this feature's relationship with crop yield using domain knowledge and the SHAP summary plot.
+numerical__soil_organic_carbon,0.24809551678283054,Investigate this feature's relationship with crop yield using domain knowledge and the SHAP summary plot.
+numerical__weather_stress_index,0.21844725728266268,Investigate this feature's relationship with crop yield using domain knowledge and the SHAP summary plot.
+categorical__crop_Soybean,0.21682419249660817,Investigate this feature's relationship with crop yield using domain knowledge and the SHAP summary plot.
+numerical__rainfall_adequacy_ratio,0.14428356170557505,Investigate this feature's relationship with crop yield using domain knowledge and the SHAP summary plot.
+numerical__soil_nitrogen,0.13451425306217138,Investigate this feature's relationship with crop yield using domain knowledge and the SHAP summary plot.
+categorical__crop_Gram,0.03760382644486945,Investigate this feature's relationship with crop yield using domain knowledge and the SHAP summary plot.
+numerical__heavy_rain_days,0.03643513081268406,Investigate this feature's relationship with crop yield using domain knowledge and the SHAP summary plot.

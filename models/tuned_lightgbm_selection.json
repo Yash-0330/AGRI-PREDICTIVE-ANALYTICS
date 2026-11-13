@@ -1,0 +1,14 @@
+{
+    "selected_configuration": "LightGBM_Tuned_A",
+    "selection_method": "Lowest mean chronological CV MAE",
+    "mean_cv_mae": 1.0960968868993517,
+    "mean_cv_rmse": 1.3780322478949423,
+    "mean_cv_r2": 0.7519378896241395,
+    "hyperparameters": {
+        "n_estimators": 500,
+        "learning_rate": 0.03,
+        "num_leaves": 20,
+        "max_depth": 8,
+        "reg_lambda": 2.0
+    }
+}

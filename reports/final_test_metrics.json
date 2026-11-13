@@ -1,0 +1,9 @@
+{
+    "Test_Year": 2024,
+    "Test_Records": 38511,
+    "MAE_q_per_ha": 1.0970397849230944,
+    "RMSE_q_per_ha": 1.3703557491982719,
+    "R2": 0.7559494267067074,
+    "Mean_Actual_Yield": 13.044430447457838,
+    "Mean_Predicted_Yield": 13.057271188906267
+}

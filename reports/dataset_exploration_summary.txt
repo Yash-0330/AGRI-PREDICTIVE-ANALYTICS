@@ -1,0 +1,77 @@
+AGRI DATASET EXPLORATION SUMMARY
+==================================================
+Rows: 355,250
+Columns: 20
+
+COLUMN DATA TYPES
+record_id                               int64
+year                                    int64
+district                                  str
+taluka                                    str
+crop                                      str
+season                                    str
+area_hectares                         float64
+lpa_rainfall_mm                         int64
+cum_rainfall_cutoff_mm                float64
+dry_spell_max_days                      int64
+heavy_rain_days                         int64
+soil_nitrogen                         float64
+soil_phosphorus                       float64
+soil_potassium                        float64
+soil_organic_carbon                   float64
+soil_ph                               float64
+mandi_price_raw                       float64
+msp_quintal                             int64
+yield_raw                             float64
+post_harvest_mandi_arrivals_tonnes    float64
+
+MISSING VALUES
+                                    Missing_Count  Missing_Percentage
+record_id                                       0                0.00
+year                                            0                0.00
+district                                        0                0.00
+taluka                                          0                0.00
+crop                                            0                0.00
+season                                          0                0.00
+area_hectares                                   0                0.00
+lpa_rainfall_mm                                 0                0.00
+cum_rainfall_cutoff_mm                      49771               14.01
+dry_spell_max_days                              0                0.00
+heavy_rain_days                                 0                0.00
+soil_nitrogen                                   0                0.00
+soil_phosphorus                                 0                0.00
+soil_potassium                                  0                0.00
+soil_organic_carbon                             0                0.00
+soil_ph                                         0                0.00
+mandi_price_raw                                 0                0.00
+msp_quintal                                     0                0.00
+yield_raw                                       0                0.00
+post_harvest_mandi_arrivals_tonnes              0                0.00
+
+DISTRICT DISTRIBUTION
+district
+Yavatmal      59584
+Wardha        59391
+Chandrapur    59177
+Amravati      59176
+Nagpur        59120
+Akola         58802
+
+CROP DISTRIBUTION
+crop
+Soybean    124060
+Cotton     106621
+Tur         53218
+Gram        35784
+Wheat       35567
+
+NUMERICAL SUMMARY
+       record_id       year  area_hectares  lpa_rainfall_mm  cum_rainfall_cutoff_mm  dry_spell_max_days  heavy_rain_days  soil_nitrogen  soil_phosphorus  soil_potassium  soil_organic_carbon    soil_ph  mandi_price_raw  msp_quintal  yield_raw  post_harvest_mandi_arrivals_tonnes
+count  355250.00  355250.00      355250.00        355250.00               305479.00           355250.00        355250.00      355250.00        355250.00       355250.00            355250.00  355250.00        355250.00    355250.00  355250.00                           355250.00
+mean   175018.24    2019.66           6.18           930.12                  605.14               10.59             1.58         210.11            18.01          319.99                 0.55       7.20          4543.38      5417.63     166.01                             1500.95
+std    101041.57       2.87           5.82           129.21                  157.48                5.65             1.79          34.93             4.98           59.87                 0.15       0.55          2579.67      1425.23     429.43                              417.21
+min         1.00    2015.00           0.50           760.00                  222.30                3.00             0.00         100.00             5.00          120.00                 0.20       5.50            10.14      2275.00       0.40                              295.28
+25%     87493.25    2017.00           2.62           820.00                  494.28                6.00             0.00         186.44            14.63          279.56                 0.45       6.83          2651.61      4600.00      10.92                             1196.20
+50%    175029.50    2020.00           4.49           950.00                  593.77               10.00             1.00         210.05            18.00          320.10                 0.55       7.20          5066.66      5440.00      12.94                             1454.28
+75%    262538.75    2022.00           7.71          1020.00                  704.20               13.00             2.00         233.72            21.37          360.39                 0.65       7.57          6505.85      6620.00      15.51                             1751.64
+max    350000.00    2024.00         100.00          1150.00                 1233.38               25.00             8.00         350.00            40.00          550.00                 1.20       8.80         11727.29      7000.00    2510.66                             3455.85

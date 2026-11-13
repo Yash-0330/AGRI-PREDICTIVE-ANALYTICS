@@ -1,0 +1,7 @@
+{
+    "selected_model": "LightGBM",
+    "selection_metric": "Validation MAE",
+    "validation_mae": 1.096750992952341,
+    "validation_rmse": 1.3756634147284794,
+    "validation_r2": 0.7545601214043514
+}
